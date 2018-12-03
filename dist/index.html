@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test</title>
+    <style>@media only screen and (max-width: 1080px) {
+      .footer-text, .dg {
+        display: none;
+      }
+    }
+
+    canvas{
+         width: 100%; 
+         height: 100%;
+    }</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="info" style="display:none">
+    </div>
+    <div id="loading">
+        Loading the model...
+    </div>
+
+    <div id="main" style="display:none">
+        <video id="video" playsinline="" style=" -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        display: none;
+        ">
+        </video>
+        <canvas id="output">
+        <img id="source" src="/Smallmario.6037cc4d.png">
+    </canvas></div>
+    <script src="/camera.283d5d54.js"></script>
+    <!-- <script src="Effects.js"></script> -->
+</body>
+
+</html>
